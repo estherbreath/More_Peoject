@@ -1,0 +1,208 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  
+}
+body{
+    max-width: 480px;
+    margin: 60px auto;
+    background-color: black;
+   
+}
+p{
+    color: rgb(163, 157, 149);
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 40px;
+    background-color: white;
+    padding: 20px 30px;
+
+}
+nav i{
+    color: rgb(11, 11, 58);
+}
+/* header */
+header{
+   padding-left: 40px;
+   background-color: white;
+}
+
+header img{
+    width: 400px;
+    height: 250px;
+ }
+ .item-1 h1{
+    color:  rgb(11, 11, 58); 
+    font-size: 40px;
+ }
+.item-1 p{
+    line-height: 1.5;
+}
+ .item-1 button{
+    color: white;
+    background-color: rgb(233, 73, 15);
+    padding: 7px 14px;
+    border: none;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+ } 
+  .item-2 h2{
+    color: rgb(23, 23, 71);
+    font-size: 30px;
+ }
+ .item-2 p{
+    margin-bottom: 10px;
+    line-height: 1.5;
+ }
+   .item-3 span{
+      border: 3px solid  rgb(233, 73, 15);
+      background-color:  rgb(233, 73, 15);
+      color: white;
+      padding: 3px 6px;
+      border-radius: 25px;
+      position: relative;
+      top: 20px;
+      left: 10px;
+   }
+   .item-3 p{
+      line-height: 1.5;  
+   }
+   .item-3 h5{
+      color: rgb(23, 23, 71); 
+      font-size: 20px;
+     margin-left: 40px; 
+     background-color: rgb(236, 176, 153) 
+   }
+   /* .manage-one, manage-two, .manage-three{
+    margin-left: 30px;
+   } */
+   /* testimonial */
+   .testimonial h3{
+    width: 400px; 
+    margin-left: 30px;
+    /* text-align: center; */
+    font-size: 30px;
+    padding-top: 40px;
+    padding-bottom: 30px;
+   }
+  .testimonial img{
+    height: 100px;
+    display: block;
+    margin: auto;
+  }
+ .testimonial{
+   text-align: center;
+   padding-top: 20px;
+   background-color: white;
+ }
+  .testimonial h4{
+    text-align: center;
+    color: rgb(23, 23, 71); 
+  }
+  .testimonial button{
+    color: white;
+    background-color: rgb(233, 73, 15);
+    padding: 7px 14px;
+    border: none;
+    border-radius: 20px;
+    margin: 70px 0;
+  }
+  .fa-ellipsis{
+      color: rgb(233, 73, 15);
+      position: relative;
+      bottom: 40px;
+      left: 60px;
+  }
+  /* .btn{
+   padding-top: 50px;
+  } */
+
+  /* footer */
+  .orange{
+    height: 200px;
+    background-color: rgb(233, 73, 15);
+    color: white;
+    text-align: center;
+    padding: 0 40px;
+    background-image: url(../assets/bg-simplify-section-mobile.svg);
+    background-repeat: no-repeat;
+    margin-top: 20px 40px 0 0;  
+    
+ }
+ .orange h1{
+    font-size: 30px;
+    padding-top: 30px;
+ }
+ .orange button{
+    padding: 7px 14px;
+    border-radius: 25px;
+    border: none;
+    font-size: 15px;
+    background-color: white;
+    color: rgb(233, 73, 15);
+    margin-top: 20px 0;   
+ }
+ input{
+   border-radius: 20px;
+   padding: 5px;
+   outline: none;
+   border: none;
+   margin: 50px 0; 
+}
+.black{
+   background-color: rgb(29, 26, 26);
+   padding-left: 40px;
+   text-align: center;
+}
+ .footer-nav{
+   width: 300px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-bottom: 50px;
+   padding-left: 60px;
+
+} 
+.footer-nav a{
+   color: white;
+   text-decoration: none;
+}
+.footer-nav a:hover{
+   color: var(--secondary-color);
+}
+.footer-nav li{
+   list-style-type: none;
+   line-height: 1.5;
+}
+.contact{
+ margin-bottom: 50px;
+ 
+
+}
+#f, #ins, #l, #t{
+   color: white;
+   margin-right: 30px;
+   margin-left: 20px;
+}
+
+#footer-logo{
+   margin: 50px 0;
+}
+footer p{
+   padding-bottom: 50px;
+}
+
+#btn{
+   background-color:  rgb(233, 73, 15);
+   color: white;
+   border-radius: 50%;
+   border: none;
+   padding: 10px;
+   margin-left: 10px;
+}
+    

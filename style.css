@@ -1,0 +1,210 @@
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.margin{
+   margin: 30px;
+}
+p{
+   color:  rgb(163, 157, 149);
+} 
+nav{  
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+}
+nav button{
+     color: white;
+     font-size: 12px;
+     background-color:  rgb(233, 73, 15);
+     padding: 7px 14px;
+     border-radius: 20px; 
+     border: none;
+}
+
+nav a{
+    color:  rgb(23, 23, 71);
+    text-decoration: none;
+    font-size: small;
+    margin-right: 2vw;
+ }
+ nav a:hover{
+    color: rgb(45, 102, 124);
+    border-bottom: 2px solid rgb(73, 167, 204);
+ }
+  .wrap{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  margin-top: 30px; 
+ } 
+ .first{
+   margin-top: 40px;
+ }
+ .first h1{
+    color:  rgb(23, 23, 71);
+    font-size: 30px;
+    line-height: 1.5;
+ }
+
+ .first button{
+    color: white;
+    background-color: rgb(233, 73, 15);
+    padding: 7px 14px;
+    border: none;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+ }
+  .second img{
+    width: 400px;
+    height: 250px;
+ } 
+
+ .three h2{
+    color:  rgb(23, 23, 71);
+    font-size: 25px
+ }
+ .three p{
+    color: rgb(163, 157, 149);
+    margin-bottom: 10px;
+ }
+ .four div{
+  text-align: left;
+  margin-left: 30px;
+ }
+ .four span{
+    border: 3px solid  rgb(233, 73, 15);
+    background-color:  rgb(233, 73, 15);
+    color: white;
+    padding: 3px;
+    border-radius: 25px;
+    position: relative;
+    top: 15px;
+    right: 10px;
+    
+ }
+ .four h5{
+    color: rgb(23, 23, 71);  
+ }
+ 
+  aside h3{
+   text-align: center;
+   font-size: 40px;
+   margin: 50px 0;
+  }
+
+ .info{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-bottom: 20px;
+ }
+ .info img{
+   height: 100px;
+   display: block;
+   margin: auto;
+ }
+ .info p{
+   text-align: center;
+ }
+ .info h4{
+   text-align: center;
+   color: rgb(23, 23, 71); 
+ }
+
+  #info-button{
+   background-color:  rgb(233, 73, 15); 
+   color: white;
+   padding: 10px 20px;
+   border: none;
+   font-size: 20px;
+   font-weight: 350;
+   border-radius: 20px;
+   margin: 60px 550px;
+   
+ }
+ /* footer */
+  footer{
+   width: 100% !important;
+  } 
+   .orange{
+   height: 150px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   background-color:  rgb(233, 73, 15);
+   color: white;
+   text-align: center;
+   padding: 0 40px;
+   background-image: url(./assets/bg-simplify-section-desktop.svg);
+   background-repeat: no-repeat;
+}
+.orange h1{
+   font-size: 30px;
+}
+.orange button{
+   padding: 7px 14px;
+   border-radius: 50px;
+   border: none;
+   font-size: 20px;
+   background-color: white;
+   color:  rgb(233, 73, 15);
+}
+
+.black{
+   height: 250px;
+   background-color: rgb(36, 31, 31);
+   display: flex;
+   justify-content: space-between;
+   padding: 40px 50px 70px 50px;
+}
+
+footer h4{
+   font-size: 20px;
+   color: white; 
+   margin-bottom: 10px;
+} 
+footer h3{
+   font-size: 30px;
+   color: white;
+}
+footer a{
+   color: white;
+   text-decoration: none;
+}
+footer a:hover{
+   color: var(--secondary-color);
+}
+footer li{
+   list-style-type: none;
+   line-height: 1.5;
+} 
+
+input{
+   border-radius: 20px;
+   padding: 5px;
+   outline: none;
+   border: none;
+}
+
+#btn{
+   background-color:  rgb(233, 73, 15);
+   color: white;
+   border-radius: 50%;
+   padding: 10px;
+   margin-left: 10px;
+}
+
+
+
+
+  
+  
+
+
+  
+  
